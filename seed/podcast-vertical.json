@@ -1,0 +1,750 @@
+{
+ "vertical": "podcast",
+ "source": {
+  "site": "podwires.com",
+  "what": "Podcast production marketplace (WordPress + marketplace plugin)",
+  "scraped_at": "2026-10-14",
+  "robots": "AI crawlers explicitly allowed; dashboards/auth/wp-json disallowed",
+  "scale_at_scrape": {
+   "producers": 164,
+   "job_listings": 1293,
+   "projects": 131,
+   "events": 273,
+   "posts": 310
+  }
+ },
+ "roles": [
+  {
+   "name": "Podcast Producer",
+   "slug": "podcast-producers",
+   "singularSlug": "podcast-producer",
+   "categorySlug": "podcast_producer"
+  },
+  {
+   "name": "Audio Engineer",
+   "slug": "audio-engineers",
+   "singularSlug": "audio-engineer",
+   "categorySlug": "audio_engineer"
+  },
+  {
+   "name": "Podcast Editor",
+   "slug": "podcast-editors",
+   "singularSlug": "podcast-editor",
+   "categorySlug": "podcast_editor"
+  },
+  {
+   "name": "Sound Designer",
+   "slug": "sound-designers",
+   "singularSlug": "sound-designer",
+   "categorySlug": "sound_designer"
+  },
+  {
+   "name": "Podcast Consultant",
+   "slug": "podcast-consultants",
+   "singularSlug": "podcast-consultant",
+   "categorySlug": "podcast_consultant"
+  },
+  {
+   "name": "Podcast Strategist",
+   "slug": "podcast-strategists",
+   "singularSlug": "podcast-strategist",
+   "categorySlug": "podcast_strategist"
+  },
+  {
+   "name": "Podcast Manager",
+   "slug": "podcast-managers",
+   "singularSlug": "podcast-manager",
+   "categorySlug": "podcast_manager"
+  },
+  {
+   "name": "Show Notes Writer",
+   "slug": "show-notes-writers",
+   "singularSlug": "show-notes-writer",
+   "categorySlug": "show_notes_writer"
+  }
+ ],
+ "taxonomy": {
+  "job_categories": [
+   {
+    "slug": "podcast-editing",
+    "name": "Podcast Editing"
+   },
+   {
+    "slug": "podcast-management",
+    "name": "Podcast Management"
+   },
+   {
+    "slug": "podcast-production",
+    "name": "Podcast Production"
+   },
+   {
+    "slug": "podcast-marketing-strategy",
+    "name": "Podcast Marketing Strategy"
+   },
+   {
+    "slug": "podcast-video-editing",
+    "name": "Podcast Video Editing"
+   },
+   {
+    "slug": "shownote-writing",
+    "name": "Shownote Writing"
+   },
+   {
+    "slug": "social-media-management",
+    "name": "Social Media Management"
+   },
+   {
+    "slug": "marketing-communication",
+    "name": "Marketing Communication"
+   },
+   {
+    "slug": "other",
+    "name": "Other"
+   },
+   {
+    "slug": "audio-production",
+    "name": "Audio Production"
+   },
+   {
+    "slug": "podcast-hosting",
+    "name": "Podcast Hosting"
+   },
+   {
+    "slug": "sound-engineering",
+    "name": "Sound Engineering"
+   },
+   {
+    "slug": "editing-post-production",
+    "name": "Editing Post Production"
+   },
+   {
+    "slug": "voice-narration",
+    "name": "Voice Narration"
+   },
+   {
+    "slug": "sales-marketing",
+    "name": "Sales Marketing"
+   },
+   {
+    "slug": "management",
+    "name": "Management"
+   },
+   {
+    "slug": "technical",
+    "name": "Technical"
+   }
+  ],
+  "member_types": [
+   {
+    "slug": "podcast-producer",
+    "name": "Podcast Producer"
+   },
+   {
+    "slug": "audio-engineer",
+    "name": "Audio Engineer"
+   },
+   {
+    "slug": "sound-designer",
+    "name": "Sound Designer"
+   },
+   {
+    "slug": "podcast-consultant",
+    "name": "Podcast Consultant"
+   },
+   {
+    "slug": "podcast-strategist",
+    "name": "Podcast Strategist"
+   },
+   {
+    "slug": "content-creator",
+    "name": "Content Creator"
+   },
+   {
+    "slug": "podcast-guest-management",
+    "name": "Podcast Guest Management"
+   },
+   {
+    "slug": "podcast-editing",
+    "name": "Podcast Editing"
+   },
+   {
+    "slug": "podcast-editor",
+    "name": "Podcast Editor"
+   },
+   {
+    "slug": "podcast-manager",
+    "name": "Podcast Manager"
+   }
+  ],
+  "job_types": [
+   {
+    "slug": "full-time",
+    "name": "Full Time"
+   },
+   {
+    "slug": "part-time",
+    "name": "Part Time"
+   },
+   {
+    "slug": "contract",
+    "name": "Contract"
+   },
+   {
+    "slug": "freelance",
+    "name": "Freelance"
+   },
+   {
+    "slug": "internship",
+    "name": "Internship"
+   },
+   {
+    "slug": "remote",
+    "name": "Remote"
+   },
+   {
+    "slug": "casual",
+    "name": "Casual"
+   },
+   {
+    "slug": "volunteer",
+    "name": "Volunteer"
+   },
+   {
+    "slug": "internshippart-time",
+    "name": "Internshippart Time"
+   },
+   {
+    "slug": "temporary-per-diem-freelance",
+    "name": "Temporary Per Diem Freelance"
+   }
+  ],
+  "skills": [
+   {
+    "slug": "podcast-editing",
+    "name": "Podcast Editing"
+   },
+   {
+    "slug": "sound-design",
+    "name": "Sound Design"
+   },
+   {
+    "slug": "audio-mixing",
+    "name": "Audio Mixing"
+   },
+   {
+    "slug": "script-writing",
+    "name": "Script Writing"
+   },
+   {
+    "slug": "remote-recording",
+    "name": "Remote Recording"
+   },
+   {
+    "slug": "audio-editing",
+    "name": "Audio Editing"
+   },
+   {
+    "slug": "podcast-production",
+    "name": "Podcast Production"
+   },
+   {
+    "slug": "podcast-management",
+    "name": "Podcast Management"
+   },
+   {
+    "slug": "voice-over",
+    "name": "Voice Over"
+   },
+   {
+    "slug": "copywriting",
+    "name": "Copywriting"
+   },
+   {
+    "slug": "graphic-design",
+    "name": "Graphic Design"
+   },
+   {
+    "slug": "social-media-management",
+    "name": "Social Media Management"
+   },
+   {
+    "slug": "audio-repair",
+    "name": "Audio Repair"
+   },
+   {
+    "slug": "audio-production",
+    "name": "Audio Production"
+   },
+   {
+    "slug": "project-management",
+    "name": "Project Management"
+   },
+   {
+    "slug": "music-composition",
+    "name": "Music Composition"
+   },
+   {
+    "slug": "podcast-graphic-designer",
+    "name": "Podcast Graphic Designer"
+   },
+   {
+    "slug": "editing",
+    "name": "Editing"
+   },
+   {
+    "slug": "writing",
+    "name": "Writing"
+   },
+   {
+    "slug": "producing",
+    "name": "Producing"
+   },
+   {
+    "slug": "hosting",
+    "name": "Hosting"
+   },
+   {
+    "slug": "concept-origination",
+    "name": "Concept Origination"
+   },
+   {
+    "slug": "recording",
+    "name": "Recording"
+   },
+   {
+    "slug": "web-development",
+    "name": "Web Development"
+   },
+   {
+    "slug": "podcast",
+    "name": "Podcast"
+   },
+   {
+    "slug": "audio-book-immersive-audio-post-production",
+    "name": "Audio Book Immersive Audio Post Production"
+   },
+   {
+    "slug": "intro-outro-music-production",
+    "name": "Intro Outro Music Production"
+   },
+   {
+    "slug": "foley",
+    "name": "Foley"
+   },
+   {
+    "slug": "consulting",
+    "name": "Consulting"
+   },
+   {
+    "slug": "mixing",
+    "name": "Mixing"
+   },
+   {
+    "slug": "mastering",
+    "name": "Mastering"
+   },
+   {
+    "slug": "seo",
+    "name": "Seo"
+   },
+   {
+    "slug": "transcriptions",
+    "name": "Transcriptions"
+   },
+   {
+    "slug": "video-editing",
+    "name": "Video Editing"
+   },
+   {
+    "slug": "research",
+    "name": "Research"
+   },
+   {
+    "slug": "email-outreach",
+    "name": "Email Outreach"
+   },
+   {
+    "slug": "booking-interviews",
+    "name": "Booking Interviews"
+   },
+   {
+    "slug": "scheduling-guests",
+    "name": "Scheduling Guests"
+   },
+   {
+    "slug": "planning-live-events",
+    "name": "Planning Live Events"
+   },
+   {
+    "slug": "editing-clips-and-photos-for-social-media",
+    "name": "Editing Clips And Photos For Social Media"
+   },
+   {
+    "slug": "designing-one-sheets-and-press-kits",
+    "name": "Designing One Sheets And Press Kits"
+   },
+   {
+    "slug": "ideation",
+    "name": "Ideation"
+   },
+   {
+    "slug": "production",
+    "name": "Production"
+   },
+   {
+    "slug": "post",
+    "name": "Post"
+   },
+   {
+    "slug": "proficient-in-audio-and-video-editing",
+    "name": "Proficient In Audio And Video Editing"
+   },
+   {
+    "slug": "spreadsheets-and-graphic-design",
+    "name": "Spreadsheets And Graphic Design"
+   },
+   {
+    "slug": "podcast-production-content-marketing",
+    "name": "Podcast Production Content Marketing"
+   },
+   {
+    "slug": "podcast-artwork",
+    "name": "Podcast Artwork"
+   },
+   {
+    "slug": "podcast-branding",
+    "name": "Podcast Branding"
+   },
+   {
+    "slug": "podcast-cover-art-design",
+    "name": "Podcast Cover Art Design"
+   },
+   {
+    "slug": "podcast-episode-graphics",
+    "name": "Podcast Episode Graphics"
+   },
+   {
+    "slug": "social-media-graphics",
+    "name": "Social Media Graphics"
+   },
+   {
+    "slug": "communication-and-creativity",
+    "name": "Communication And Creativity"
+   },
+   {
+    "slug": "voiceover-editing-audio-restoration-mixing-mastering-narrative-and-immersive-sound-design-music-bed-composition-broad-genre-capabilities",
+    "name": "Voiceover Editing Audio Restoration Mixing Mastering Narrative And Immersive Sound Design Music Bed Composition Broad Genre Capabilities"
+   },
+   {
+    "slug": "audio-engineering",
+    "name": "Audio Engineering"
+   },
+   {
+    "slug": "dialog-editing",
+    "name": "Dialog Editing"
+   },
+   {
+    "slug": "studio-recording",
+    "name": "Studio Recording"
+   },
+   {
+    "slug": "video-production",
+    "name": "Video Production"
+   },
+   {
+    "slug": "audio-recording",
+    "name": "Audio Recording"
+   },
+   {
+    "slug": "voice-overs-and-client-services",
+    "name": "Voice Overs And Client Services"
+   },
+   {
+    "slug": "music",
+    "name": "Music"
+   },
+   {
+    "slug": "audio-editing-sound-design",
+    "name": "Audio Editing Sound Design"
+   },
+   {
+    "slug": "sound-engineering",
+    "name": "Sound Engineering"
+   },
+   {
+    "slug": "outreach-specialist",
+    "name": "Outreach Specialist"
+   },
+   {
+    "slug": "video-audio-editor",
+    "name": "Video Audio Editor"
+   },
+   {
+    "slug": "short-clips-editor",
+    "name": "Short Clips Editor"
+   },
+   {
+    "slug": "audio-editing-software-proficiency",
+    "name": "Audio Editing Software Proficiency"
+   },
+   {
+    "slug": "attention-to-detail",
+    "name": "Attention To Detail"
+   },
+   {
+    "slug": "time-management",
+    "name": "Time Management"
+   },
+   {
+    "slug": "sound-editing",
+    "name": "Sound Editing"
+   },
+   {
+    "slug": "podcast-mixing",
+    "name": "Podcast Mixing"
+   },
+   {
+    "slug": "jingle",
+    "name": "Jingle"
+   },
+   {
+    "slug": "content-creation",
+    "name": "Content Creation"
+   },
+   {
+    "slug": "presenter",
+    "name": "Presenter"
+   },
+   {
+    "slug": "producer",
+    "name": "Producer"
+   },
+   {
+    "slug": "interviewer",
+    "name": "Interviewer"
+   },
+   {
+    "slug": "advisory",
+    "name": "Advisory"
+   },
+   {
+    "slug": "mix",
+    "name": "Mix"
+   },
+   {
+    "slug": "color-correction",
+    "name": "Color Correction"
+   },
+   {
+    "slug": "animation",
+    "name": "Animation"
+   },
+   {
+    "slug": "voiceover-direction",
+    "name": "Voiceover Direction"
+   },
+   {
+    "slug": "podcast-sound-design",
+    "name": "Podcast Sound Design"
+   },
+   {
+    "slug": "podcast-concept-ideation-and-development",
+    "name": "Podcast Concept Ideation And Development"
+   },
+   {
+    "slug": "video-podcast-editing",
+    "name": "Video Podcast Editing"
+   },
+   {
+    "slug": "podcast-assest-designing",
+    "name": "Podcast Assest Designing"
+   },
+   {
+    "slug": "podcast-strategy",
+    "name": "Podcast Strategy"
+   },
+   {
+    "slug": "podcast-outreach",
+    "name": "Podcast Outreach"
+   },
+   {
+    "slug": "podcast-marketing",
+    "name": "Podcast Marketing"
+   },
+   {
+    "slug": "course-creation",
+    "name": "Course Creation"
+   },
+   {
+    "slug": "funnel-building",
+    "name": "Funnel Building"
+   },
+   {
+    "slug": "customer-service",
+    "name": "Customer Service"
+   },
+   {
+    "slug": "ms-office",
+    "name": "Ms Office"
+   },
+   {
+    "slug": "podcast-audio-editing-and-management",
+    "name": "Podcast Audio Editing And Management"
+   },
+   {
+    "slug": "teaser-audiogram-trailer-creation-for-podcast-episodes-extensive-research-for-quality-content-content-podcast-publishing-and-scheduling-to-host-and-or-website-social-media-scheduling",
+    "name": "Teaser Audiogram Trailer Creation For Podcast Episodes Extensive Research For Quality Content Content Podcast Publishing And Scheduling To Host And Or Website Social Media Scheduling"
+   },
+   {
+    "slug": "and-audience-engagement",
+    "name": "And Audience Engagement"
+   },
+   {
+    "slug": "guest-outreach",
+    "name": "Guest Outreach"
+   },
+   {
+    "slug": "booking",
+    "name": "Booking"
+   },
+   {
+    "slug": "scheduling",
+    "name": "Scheduling"
+   },
+   {
+    "slug": "brand-development",
+    "name": "Brand Development"
+   },
+   {
+    "slug": "distribution",
+    "name": "Distribution"
+   },
+   {
+    "slug": "marketing",
+    "name": "Marketing"
+   },
+   {
+    "slug": "production-editing-skills",
+    "name": "Production Editing Skills"
+   },
+   {
+    "slug": "project-management-organization",
+    "name": "Project Management Organization"
+   },
+   {
+    "slug": "strong-communication-collaboration",
+    "name": "Strong Communication Collaboration"
+   },
+   {
+    "slug": "creative-problem-solving",
+    "name": "Creative Problem Solving"
+   },
+   {
+    "slug": "adaptability-trend-awareness",
+    "name": "Adaptability Trend Awareness"
+   },
+   {
+    "slug": "full-stack-interview",
+    "name": "Full Stack Interview"
+   },
+   {
+    "slug": "edit",
+    "name": "Edit"
+   },
+   {
+    "slug": "score",
+    "name": "Score"
+   },
+   {
+    "slug": "sound-design-and-post",
+    "name": "Sound Design And Post"
+   },
+   {
+    "slug": "scriptwriting",
+    "name": "Scriptwriting"
+   },
+   {
+    "slug": "adobe-creative-cloud",
+    "name": "Adobe Creative Cloud"
+   },
+   {
+    "slug": "guest-management",
+    "name": "Guest Management"
+   },
+   {
+    "slug": "audio-editing-and-mixing",
+    "name": "Audio Editing And Mixing"
+   }
+  ],
+  "blog_categories": [
+   {
+    "slug": "podwires-policy",
+    "name": "Podwires Policy"
+   },
+   {
+    "slug": "support",
+    "name": "Support"
+   },
+   {
+    "slug": "industry-news",
+    "name": "Industry News"
+   },
+   {
+    "slug": "product-updates",
+    "name": "Product Updates"
+   },
+   {
+    "slug": "events",
+    "name": "Events"
+   },
+   {
+    "slug": "tips-resources",
+    "name": "Tips Resources"
+   },
+   {
+    "slug": "podcast-news",
+    "name": "Podcast News"
+   },
+   {
+    "slug": "announcements",
+    "name": "Announcements"
+   },
+   {
+    "slug": "jobs",
+    "name": "Jobs"
+   },
+   {
+    "slug": "streaming-platforms",
+    "name": "Streaming Platforms"
+   },
+   {
+    "slug": "podcast-industry",
+    "name": "Podcast Industry"
+   },
+   {
+    "slug": "business-media",
+    "name": "Business Media"
+   },
+   {
+    "slug": "tools-gear",
+    "name": "Tools Gear"
+   },
+   {
+    "slug": "audio-tech",
+    "name": "Audio Tech"
+   },
+   {
+    "slug": "education-events",
+    "name": "Education Events"
+   },
+   {
+    "slug": "people-companies",
+    "name": "People Companies"
+   },
+   {
+    "slug": "podcast-marketer",
+    "name": "Podcast Marketer"
+   }
+  ]
+ }
+}

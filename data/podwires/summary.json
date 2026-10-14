@@ -1,0 +1,18 @@
+{
+ "startedAt": "2026-10-14T22:04:16.661Z",
+ "types": {
+  "members": {
+   "total_in_sitemap": 15,
+   "fetched": 15,
+   "skipped_resumed": 0
+  }
+ },
+ "taxonomies": {
+  "skills": 114,
+  "job_categories": 17,
+  "job_types": 10,
+  "member_types": 10,
+  "blog_categories": 17
+ },
+ "finishedAt": "2026-10-14T22:04:46.115Z"
+}

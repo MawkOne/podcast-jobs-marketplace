@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# env files
+.env*
+
+# dependencies & build output (theme/.gitignore covers theme-specific paths)
+node_modules
+.next
+out

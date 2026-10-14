@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+/*
+  Podwave — clean, modern podcast & audio marketplace.
+
+  Modern Studio Minimalism: generous whitespace, soft contrast, restrained
+  colour, authentic photography. Implemented by overriding Tailwind v4 theme
+  tokens, so every existing utility class in the pages (indigo-*, gray-*,
+  rounded-xl, …) re-skins from here — no stack change, no component rewrites.
+
+  Palette application ≈ 70% white/light neutrals, 20% soft teal, 10% deep teal.
+*/
+@theme {
+  /* ── Podwave palette ─────────────────────────────────────────────────────── */
+  --color-teal: #087f80;        /* Studio Teal — buttons, accents, icons */
+  --color-teal-deep: #066a6b;   /* derived — hover */
+  --color-seafoam: #b9ddda;     /* hero backgrounds, subtle gradients */
+  --color-mist: #e8f4f3;        /* icon backgrounds, soft surfaces */
+  --color-ink: #122638;         /* Midnight Ink — headings, primary text */
+  --color-cloud: #f5f7f7;       /* secondary backgrounds, dividers */
+  --color-oak: #bd9b7b;         /* warm photographic accent */
+
+  /* Accent — follows the brand */
+  --color-accent: #087f80;
+  --color-accent-soft: #e8f4f3;
+  --color-surface: #f5f7f7;
+
+  /* indigo-* utilities used across the pages → Studio Teal scale */
+  --color-indigo-50: #e8f4f3;
+  --color-indigo-100: #d3ebe9;
+  --color-indigo-200: #b9ddda;
+  --color-indigo-300: #8fc9c6;
+  --color-indigo-500: #0d9a9b;
+  --color-indigo-600: #087f80;
+  --color-indigo-700: #066a6b;
+
+  /* Grays → Midnight Ink / Cloud Grey scale */
+  --color-gray-50: #f5f7f7;
+  --color-gray-100: #eef1f1;
+  --color-gray-200: #e3e8e8;
+  --color-gray-300: #cfd6d6;
+  --color-gray-400: #9aa5a5;
+  --color-gray-500: #6b7676;
+  --color-gray-700: #3a4545;
+  --color-gray-900: #122638;
+
+  /* Geometry — soft, 10–14px radii */
+  --radius-lg: 0.625rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 0.875rem;
+
+  /* Typography — Inter (loaded in app/layout.tsx) */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #122638;
+  letter-spacing: -0.011em;
+}
+
+/* Tight, deep-navy headings (the brand's clarity) */
+h1,
+h2,
+h3 {
+  letter-spacing: -0.025em;
+  color: #122638;
+}
+
+::selection {
+  background: #087f80;
+  color: #ffffff;
+}
+
+/* ── Podwave components ─────────────────────────────────────────────────────
+   Restrained elevation, light borders, generous padding, 150–200ms motion. */
+@layer components {
+  /* Card — white, hairline border, subtle elevation. */
+  .pw-card {
+    border: 1px solid var(--color-gray-200);
+    border-radius: var(--radius-xl);
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgb(18 38 56 / 0.04);
+    transition: box-shadow 180ms ease, border-color 180ms ease, transform 180ms ease;
+  }
+  .pw-card:hover {
+    box-shadow: 0 10px 30px rgb(18 38 56 / 0.08);
+    border-color: var(--color-gray-300);
+  }
+
+  /* Buttons */
+  .pw-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: var(--radius-lg);
+    font-weight: 600;
+    transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+  }
+  .pw-btn-primary {
+    background-color: var(--color-teal);
+    color: #ffffff;
+  }
+  .pw-btn-primary:hover {
+    background-color: var(--color-teal-deep);
+  }
+  .pw-btn-secondary {
+    background-color: #ffffff;
+    color: var(--color-teal);
+    border: 1px solid var(--color-teal);
+  }
+  .pw-btn-secondary:hover {
+    background-color: var(--color-mist);
+  }
+
+  /* Category chip */
+  .pw-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    border: 1px solid var(--color-gray-200);
+    border-radius: 9999px;
+    background-color: #ffffff;
+    color: var(--color-ink);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    padding: 0.4375rem 0.875rem;
+    transition: border-color 180ms ease, background-color 180ms ease, color 180ms ease;
+  }
+  .pw-chip:hover {
+    border-color: var(--color-teal);
+    background-color: var(--color-mist);
+    color: var(--color-teal);
+  }
+
+  /* Input / select */
+  .pw-input {
+    border: 1px solid var(--color-gray-200);
+    border-radius: var(--radius-lg);
+    background-color: #ffffff;
+    color: var(--color-ink);
+  }
+  .pw-input:focus {
+    outline: none;
+    border-color: var(--color-teal);
+    box-shadow: 0 0 0 3px rgb(8 127 128 / 0.12);
+  }
+
+  /* Icon tile — soft circular teal background for line icons */
+  .pw-icon-tile {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: var(--color-mist);
+    color: var(--color-teal);
+  }
+}
